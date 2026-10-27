@@ -1,0 +1,1569 @@
+{
+ "snapshot_date": "2026-10-27",
+ "generated_utc": "2026-10-27T06:44Z",
+ "fx": {
+  "usd_inr": 95.18,
+  "date": "2026-10-26",
+  "source": "Frankfurter (European Central Bank reference rate)",
+  "url": "https://api.frankfurter.dev/v1/latest?base=USD&symbols=INR"
+ },
+ "comtrade_monthly": {
+  "091030": [
+   {
+    "period": "202607",
+    "value_usd": 24989554.459,
+    "net_kg": 13489127.0,
+    "usd_per_kg": 1.853
+   },
+   {
+    "period": "202606",
+    "value_usd": 31556865.169,
+    "net_kg": 17987158.934,
+    "usd_per_kg": 1.754
+   },
+   {
+    "period": "202605",
+    "value_usd": 33383702.869,
+    "net_kg": 18960231.816,
+    "usd_per_kg": 1.761
+   },
+   {
+    "period": "202604",
+    "value_usd": 27449109.802,
+    "net_kg": 15039214.0,
+    "usd_per_kg": 1.825
+   },
+   {
+    "period": "202603",
+    "value_usd": 25417959.195,
+    "net_kg": 12559721.0,
+    "usd_per_kg": 2.024
+   },
+   {
+    "period": "202602",
+    "value_usd": 22691370.442,
+    "net_kg": 11403458.0,
+    "usd_per_kg": 1.99
+   },
+   {
+    "period": "202601",
+    "value_usd": 20692885.714,
+    "net_kg": 9546667.925,
+    "usd_per_kg": 2.168
+   },
+   {
+    "period": "202512",
+    "value_usd": 33997527.538,
+    "net_kg": 14856145.0,
+    "usd_per_kg": 2.288
+   },
+   {
+    "period": "202511",
+    "value_usd": 28937773.378,
+    "net_kg": 16413525.0,
+    "usd_per_kg": 1.763
+   },
+   {
+    "period": "202510",
+    "value_usd": 24677290.151,
+    "net_kg": 14437024.0,
+    "usd_per_kg": 1.709
+   },
+   {
+    "period": "202509",
+    "value_usd": 28047047.276,
+    "net_kg": 16523121.554,
+    "usd_per_kg": 1.697
+   },
+   {
+    "period": "202508",
+    "value_usd": 29999315.869,
+    "net_kg": 17136337.0,
+    "usd_per_kg": 1.751
+   }
+  ],
+  "100199": [
+   {
+    "period": "202607",
+    "value_usd": 11189170.758,
+    "net_kg": 40732183.0,
+    "usd_per_kg": 0.275
+   },
+   {
+    "period": "202606",
+    "value_usd": 7056414.389,
+    "net_kg": 25773612.0,
+    "usd_per_kg": 0.274
+   },
+   {
+    "period": "202605",
+    "value_usd": 19842549.352,
+    "net_kg": 73347652.0,
+    "usd_per_kg": 0.271
+   },
+   {
+    "period": "202604",
+    "value_usd": 12073178.11,
+    "net_kg": 44741141.0,
+    "usd_per_kg": 0.27
+   },
+   {
+    "period": "202603",
+    "value_usd": 1783459.818,
+    "net_kg": 6446249.0,
+    "usd_per_kg": 0.277
+   },
+   {
+    "period": "202602",
+    "value_usd": 2048102.284,
+    "net_kg": 6699928.0,
+    "usd_per_kg": 0.306
+   },
+   {
+    "period": "202601",
+    "value_usd": 647362.315,
+    "net_kg": 1811356.0,
+    "usd_per_kg": 0.357
+   },
+   {
+    "period": "202512",
+    "value_usd": 726025.582,
+    "net_kg": 1740269.0,
+    "usd_per_kg": 0.417
+   },
+   {
+    "period": "202511",
+    "value_usd": 956515.576,
+    "net_kg": 2438484.0,
+    "usd_per_kg": 0.392
+   },
+   {
+    "period": "202510",
+    "value_usd": 790151.904,
+    "net_kg": 2444265.0,
+    "usd_per_kg": 0.323
+   },
+   {
+    "period": "202509",
+    "value_usd": 2429810.017,
+    "net_kg": 7147010.0,
+    "usd_per_kg": 0.34
+   },
+   {
+    "period": "202508",
+    "value_usd": 656247.334,
+    "net_kg": 2054210.0,
+    "usd_per_kg": 0.319
+   }
+  ],
+  "100829": [
+   {
+    "period": "202607",
+    "value_usd": 2136827.755,
+    "net_kg": 5161546.0,
+    "usd_per_kg": 0.414
+   },
+   {
+    "period": "202606",
+    "value_usd": 2147570.291,
+    "net_kg": 5033752.0,
+    "usd_per_kg": 0.427
+   },
+   {
+    "period": "202605",
+    "value_usd": 2462870.301,
+    "net_kg": 6028336.0,
+    "usd_per_kg": 0.409
+   },
+   {
+    "period": "202604",
+    "value_usd": 2139371.48,
+    "net_kg": 4690854.0,
+    "usd_per_kg": 0.456
+   },
+   {
+    "period": "202603",
+    "value_usd": 1340699.171,
+    "net_kg": 2492256.0,
+    "usd_per_kg": 0.538
+   },
+   {
+    "period": "202602",
+    "value_usd": 2594338.379,
+    "net_kg": 6802007.0,
+    "usd_per_kg": 0.381
+   },
+   {
+    "period": "202601",
+    "value_usd": 2930806.41,
+    "net_kg": 7838123.0,
+    "usd_per_kg": 0.374
+   },
+   {
+    "period": "202512",
+    "value_usd": 3713780.11,
+    "net_kg": 8495688.0,
+    "usd_per_kg": 0.437
+   },
+   {
+    "period": "202511",
+    "value_usd": 3012360.303,
+    "net_kg": 7248072.0,
+    "usd_per_kg": 0.416
+   },
+   {
+    "period": "202510",
+    "value_usd": 3358615.905,
+    "net_kg": 7969133.0,
+    "usd_per_kg": 0.421
+   },
+   {
+    "period": "202509",
+    "value_usd": 2941425.495,
+    "net_kg": 7039977.0,
+    "usd_per_kg": 0.418
+   },
+   {
+    "period": "202508",
+    "value_usd": 3452171.717,
+    "net_kg": 8375506.0,
+    "usd_per_kg": 0.412
+   }
+  ],
+  "121190": [
+   {
+    "period": "202607",
+    "value_usd": 40250981.937,
+    "net_kg": 9924391.0,
+    "usd_per_kg": 4.056
+   },
+   {
+    "period": "202606",
+    "value_usd": 41179804.954,
+    "net_kg": 9965107.0,
+    "usd_per_kg": 4.132
+   },
+   {
+    "period": "202605",
+    "value_usd": 40499610.818,
+    "net_kg": 10622735.982,
+    "usd_per_kg": 3.813
+   },
+   {
+    "period": "202604",
+    "value_usd": 37570566.654,
+    "net_kg": 11471273.885,
+    "usd_per_kg": 3.275
+   },
+   {
+    "period": "202603",
+    "value_usd": 40662121.517,
+    "net_kg": 11545014.778,
+    "usd_per_kg": 3.522
+   },
+   {
+    "period": "202602",
+    "value_usd": 42921602.598,
+    "net_kg": 12586887.0,
+    "usd_per_kg": 3.41
+   },
+   {
+    "period": "202601",
+    "value_usd": 39172530.738,
+    "net_kg": 11662624.751,
+    "usd_per_kg": 3.359
+   },
+   {
+    "period": "202512",
+    "value_usd": 36705607.747,
+    "net_kg": 11708155.0,
+    "usd_per_kg": 3.135
+   },
+   {
+    "period": "202511",
+    "value_usd": 29127552.928,
+    "net_kg": 7873535.33,
+    "usd_per_kg": 3.699
+   },
+   {
+    "period": "202510",
+    "value_usd": 28372652.423,
+    "net_kg": 7384437.0,
+    "usd_per_kg": 3.842
+   },
+   {
+    "period": "202509",
+    "value_usd": 31647703.7,
+    "net_kg": 7224780.308,
+    "usd_per_kg": 4.38
+   },
+   {
+    "period": "202508",
+    "value_usd": 40349539.691,
+    "net_kg": 9413880.0,
+    "usd_per_kg": 4.286
+   }
+  ],
+  "150810": [
+   {
+    "period": "202607",
+    "value_usd": 14163589.043,
+    "net_kg": 9126708.0,
+    "usd_per_kg": 1.552
+   },
+   {
+    "period": "202606",
+    "value_usd": 25910380.616,
+    "net_kg": 16684965.0,
+    "usd_per_kg": 1.553
+   },
+   {
+    "period": "202605",
+    "value_usd": 8365783.809,
+    "net_kg": 5469762.0,
+    "usd_per_kg": 1.529
+   },
+   {
+    "period": "202604",
+    "value_usd": 3291558.041,
+    "net_kg": 2077474.0,
+    "usd_per_kg": 1.584
+   },
+   {
+    "period": "202603",
+    "value_usd": 3228373.6,
+    "net_kg": 2150806.903,
+    "usd_per_kg": 1.501
+   },
+   {
+    "period": "202602",
+    "value_usd": 720369.817,
+    "net_kg": 449266.0,
+    "usd_per_kg": 1.603
+   },
+   {
+    "period": "202601",
+    "value_usd": 5497765.855,
+    "net_kg": 3676380.0,
+    "usd_per_kg": 1.495
+   },
+   {
+    "period": "202512",
+    "value_usd": 26522975.182,
+    "net_kg": 18205322.0,
+    "usd_per_kg": 1.457
+   },
+   {
+    "period": "202511",
+    "value_usd": 22377812.92,
+    "net_kg": 15555461.0,
+    "usd_per_kg": 1.439
+   },
+   {
+    "period": "202510",
+    "value_usd": 20974028.615,
+    "net_kg": 14294045.0,
+    "usd_per_kg": 1.467
+   },
+   {
+    "period": "202509",
+    "value_usd": 29419424.528,
+    "net_kg": 19980754.0,
+    "usd_per_kg": 1.472
+   },
+   {
+    "period": "202508",
+    "value_usd": 26947862.219,
+    "net_kg": 17859010.0,
+    "usd_per_kg": 1.509
+   }
+  ],
+  "150890": [
+   {
+    "period": "202607",
+    "value_usd": 1298272.677,
+    "net_kg": 532823.054,
+    "usd_per_kg": 2.437
+   },
+   {
+    "period": "202606",
+    "value_usd": 1171020.027,
+    "net_kg": 415049.459,
+    "usd_per_kg": 2.821
+   },
+   {
+    "period": "202605",
+    "value_usd": 1443852.573,
+    "net_kg": 533885.0,
+    "usd_per_kg": 2.704
+   },
+   {
+    "period": "202604",
+    "value_usd": 1213647.452,
+    "net_kg": 477048.0,
+    "usd_per_kg": 2.544
+   },
+   {
+    "period": "202603",
+    "value_usd": 747931.989,
+    "net_kg": 291334.124,
+    "usd_per_kg": 2.567
+   },
+   {
+    "period": "202602",
+    "value_usd": 1011058.907,
+    "net_kg": 366248.627,
+    "usd_per_kg": 2.761
+   },
+   {
+    "period": "202601",
+    "value_usd": 653933.187,
+    "net_kg": 273137.0,
+    "usd_per_kg": 2.394
+   },
+   {
+    "period": "202512",
+    "value_usd": 1125152.246,
+    "net_kg": 449642.0,
+    "usd_per_kg": 2.502
+   },
+   {
+    "period": "202511",
+    "value_usd": 837625.463,
+    "net_kg": 338330.0,
+    "usd_per_kg": 2.476
+   },
+   {
+    "period": "202510",
+    "value_usd": 632664.379,
+    "net_kg": 250663.754,
+    "usd_per_kg": 2.524
+   },
+   {
+    "period": "202509",
+    "value_usd": 887915.197,
+    "net_kg": 364594.0,
+    "usd_per_kg": 2.435
+   },
+   {
+    "period": "202508",
+    "value_usd": 1174486.805,
+    "net_kg": 446818.0,
+    "usd_per_kg": 2.629
+   }
+  ],
+  "151311": [
+   {
+    "period": "202607",
+    "value_usd": 884244.871,
+    "net_kg": 282957.0,
+    "usd_per_kg": 3.125
+   },
+   {
+    "period": "202606",
+    "value_usd": 669914.345,
+    "net_kg": 201164.0,
+    "usd_per_kg": 3.33
+   },
+   {
+    "period": "202605",
+    "value_usd": 1100995.358,
+    "net_kg": 296890.0,
+    "usd_per_kg": 3.708
+   },
+   {
+    "period": "202604",
+    "value_usd": 806071.91,
+    "net_kg": 211655.0,
+    "usd_per_kg": 3.808
+   },
+   {
+    "period": "202603",
+    "value_usd": 739708.749,
+    "net_kg": 189016.0,
+    "usd_per_kg": 3.913
+   },
+   {
+    "period": "202602",
+    "value_usd": 843178.812,
+    "net_kg": 213185.0,
+    "usd_per_kg": 3.955
+   },
+   {
+    "period": "202601",
+    "value_usd": 872689.408,
+    "net_kg": 234290.0,
+    "usd_per_kg": 3.725
+   },
+   {
+    "period": "202512",
+    "value_usd": 864963.392,
+    "net_kg": 207852.0,
+    "usd_per_kg": 4.161
+   },
+   {
+    "period": "202511",
+    "value_usd": 1067910.32,
+    "net_kg": 253220.0,
+    "usd_per_kg": 4.217
+   },
+   {
+    "period": "202510",
+    "value_usd": 1060594.572,
+    "net_kg": 235328.0,
+    "usd_per_kg": 4.507
+   },
+   {
+    "period": "202509",
+    "value_usd": 1028369.435,
+    "net_kg": 231185.0,
+    "usd_per_kg": 4.448
+   },
+   {
+    "period": "202508",
+    "value_usd": 1466313.426,
+    "net_kg": 333709.0,
+    "usd_per_kg": 4.394
+   }
+  ],
+  "151319": [
+   {
+    "period": "202607",
+    "value_usd": 5177478.041,
+    "net_kg": 1411528.0,
+    "usd_per_kg": 3.668
+   },
+   {
+    "period": "202606",
+    "value_usd": 6724690.466,
+    "net_kg": 1904841.0,
+    "usd_per_kg": 3.53
+   },
+   {
+    "period": "202605",
+    "value_usd": 4325268.855,
+    "net_kg": 1124714.417,
+    "usd_per_kg": 3.846
+   },
+   {
+    "period": "202604",
+    "value_usd": 4950818.38,
+    "net_kg": 1261692.0,
+    "usd_per_kg": 3.924
+   },
+   {
+    "period": "202603",
+    "value_usd": 6311393.116,
+    "net_kg": 1518891.0,
+    "usd_per_kg": 4.155
+   },
+   {
+    "period": "202602",
+    "value_usd": 6811534.72,
+    "net_kg": 1682264.0,
+    "usd_per_kg": 4.049
+   },
+   {
+    "period": "202601",
+    "value_usd": 5048822.237,
+    "net_kg": 1238226.0,
+    "usd_per_kg": 4.077
+   },
+   {
+    "period": "202512",
+    "value_usd": 9099861.911,
+    "net_kg": 1871420.514,
+    "usd_per_kg": 4.863
+   },
+   {
+    "period": "202511",
+    "value_usd": 7633881.688,
+    "net_kg": 1520702.88,
+    "usd_per_kg": 5.02
+   },
+   {
+    "period": "202510",
+    "value_usd": 6861868.936,
+    "net_kg": 1336785.194,
+    "usd_per_kg": 5.133
+   },
+   {
+    "period": "202509",
+    "value_usd": 5817328.124,
+    "net_kg": 1201936.837,
+    "usd_per_kg": 4.84
+   },
+   {
+    "period": "202508",
+    "value_usd": 7713590.43,
+    "net_kg": 1531544.0,
+    "usd_per_kg": 5.036
+   }
+  ],
+  "151590": [
+   {
+    "period": "202607",
+    "value_usd": 12010610.944,
+    "net_kg": 1928777.137,
+    "usd_per_kg": 6.227
+   },
+   {
+    "period": "202606",
+    "value_usd": 13311595.352,
+    "net_kg": 2383910.682,
+    "usd_per_kg": 5.584
+   },
+   {
+    "period": "202605",
+    "value_usd": 15089927.93,
+    "net_kg": 2363515.049,
+    "usd_per_kg": 6.385
+   },
+   {
+    "period": "202604",
+    "value_usd": 17126478.299,
+    "net_kg": 2794945.898,
+    "usd_per_kg": 6.128
+   },
+   {
+    "period": "202603",
+    "value_usd": 13625899.947,
+    "net_kg": 3302863.238,
+    "usd_per_kg": 4.125
+   },
+   {
+    "period": "202602",
+    "value_usd": 15257331.365,
+    "net_kg": 2981099.806,
+    "usd_per_kg": 5.118
+   },
+   {
+    "period": "202601",
+    "value_usd": 14644859.553,
+    "net_kg": 2362443.178,
+    "usd_per_kg": 6.199
+   },
+   {
+    "period": "202512",
+    "value_usd": 15868387.684,
+    "net_kg": 2551375.444,
+    "usd_per_kg": 6.22
+   },
+   {
+    "period": "202511",
+    "value_usd": 19929078.324,
+    "net_kg": 3754342.281,
+    "usd_per_kg": 5.308
+   },
+   {
+    "period": "202510",
+    "value_usd": 11089764.786,
+    "net_kg": 2376188.143,
+    "usd_per_kg": 4.667
+   },
+   {
+    "period": "202509",
+    "value_usd": 11662366.007,
+    "net_kg": 2762480.735,
+    "usd_per_kg": 4.222
+   },
+   {
+    "period": "202508",
+    "value_usd": 11786808.616,
+    "net_kg": 2449999.827,
+    "usd_per_kg": 4.811
+   }
+  ],
+  "170113": [
+   {
+    "period": "202607",
+    "value_usd": 1978400.326,
+    "net_kg": 2466296.0,
+    "usd_per_kg": 0.802
+   },
+   {
+    "period": "202606",
+    "value_usd": 1552120.477,
+    "net_kg": 1963063.0,
+    "usd_per_kg": 0.791
+   },
+   {
+    "period": "202605",
+    "value_usd": 1569028.239,
+    "net_kg": 2053304.0,
+    "usd_per_kg": 0.764
+   },
+   {
+    "period": "202604",
+    "value_usd": 1419413.036,
+    "net_kg": 1883913.0,
+    "usd_per_kg": 0.753
+   },
+   {
+    "period": "202603",
+    "value_usd": 2048654.441,
+    "net_kg": 2496134.0,
+    "usd_per_kg": 0.821
+   },
+   {
+    "period": "202602",
+    "value_usd": 2324650.615,
+    "net_kg": 3163446.0,
+    "usd_per_kg": 0.735
+   },
+   {
+    "period": "202601",
+    "value_usd": 2210309.945,
+    "net_kg": 3181779.283,
+    "usd_per_kg": 0.695
+   },
+   {
+    "period": "202512",
+    "value_usd": 2969270.924,
+    "net_kg": 4534598.0,
+    "usd_per_kg": 0.655
+   },
+   {
+    "period": "202511",
+    "value_usd": 2368811.529,
+    "net_kg": 3299518.457,
+    "usd_per_kg": 0.718
+   },
+   {
+    "period": "202510",
+    "value_usd": 1419097.507,
+    "net_kg": 2095492.0,
+    "usd_per_kg": 0.677
+   },
+   {
+    "period": "202509",
+    "value_usd": 1451829.438,
+    "net_kg": 2154167.0,
+    "usd_per_kg": 0.674
+   },
+   {
+    "period": "202508",
+    "value_usd": 1521605.417,
+    "net_kg": 2173576.0,
+    "usd_per_kg": 0.7
+   }
+  ],
+  "320300": [
+   {
+    "period": "202607",
+    "value_usd": 3491682.016,
+    "net_kg": 918243.568,
+    "usd_per_kg": 3.803
+   },
+   {
+    "period": "202606",
+    "value_usd": 2393736.751,
+    "net_kg": 594929.54,
+    "usd_per_kg": 4.024
+   },
+   {
+    "period": "202605",
+    "value_usd": 2800356.311,
+    "net_kg": 635634.624,
+    "usd_per_kg": 4.406
+   },
+   {
+    "period": "202604",
+    "value_usd": 2345496.743,
+    "net_kg": 619231.387,
+    "usd_per_kg": 3.788
+   },
+   {
+    "period": "202603",
+    "value_usd": 3663522.257,
+    "net_kg": 571048.244,
+    "usd_per_kg": 6.415
+   },
+   {
+    "period": "202602",
+    "value_usd": 2606035.944,
+    "net_kg": 521808.903,
+    "usd_per_kg": 4.994
+   },
+   {
+    "period": "202601",
+    "value_usd": 2801325.365,
+    "net_kg": 441438.254,
+    "usd_per_kg": 6.346
+   },
+   {
+    "period": "202512",
+    "value_usd": 2284866.45,
+    "net_kg": 554806.057,
+    "usd_per_kg": 4.118
+   },
+   {
+    "period": "202511",
+    "value_usd": 2945627.346,
+    "net_kg": 565064.504,
+    "usd_per_kg": 5.213
+   },
+   {
+    "period": "202510",
+    "value_usd": 2492440.869,
+    "net_kg": 659295.0,
+    "usd_per_kg": 3.78
+   },
+   {
+    "period": "202509",
+    "value_usd": 3162967.945,
+    "net_kg": 292569.143,
+    "usd_per_kg": 10.811
+   },
+   {
+    "period": "202508",
+    "value_usd": 1515912.202,
+    "net_kg": 431818.239,
+    "usd_per_kg": 3.511
+   }
+  ]
+ },
+ "comtrade_destinations": {
+  "091030": {
+   "year": 2025,
+   "top": [
+    {
+     "country": "Bangladesh",
+     "value_usd": 36623122,
+     "net_kg": 28276585.0,
+     "usd_per_kg": 1.295
+    },
+    {
+     "country": "United Arab Emirates",
+     "value_usd": 33503601,
+     "net_kg": 20937905.0,
+     "usd_per_kg": 1.6
+    },
+    {
+     "country": "USA",
+     "value_usd": 31355827,
+     "net_kg": 8802248.0,
+     "usd_per_kg": 3.562
+    },
+    {
+     "country": "Morocco",
+     "value_usd": 20012344,
+     "net_kg": 12270495.0,
+     "usd_per_kg": 1.631
+    },
+    {
+     "country": "Malaysia",
+     "value_usd": 17071206,
+     "net_kg": 9045135.0,
+     "usd_per_kg": 1.887
+    },
+    {
+     "country": "Iran",
+     "value_usd": 15779278,
+     "net_kg": 9869378.0,
+     "usd_per_kg": 1.599
+    },
+    {
+     "country": "Germany",
+     "value_usd": 14398464,
+     "net_kg": 5100816.0,
+     "usd_per_kg": 2.823
+    },
+    {
+     "country": "Saudi Arabia",
+     "value_usd": 11600171,
+     "net_kg": 7076920.0,
+     "usd_per_kg": 1.639
+    }
+   ]
+  },
+  "100199": {
+   "year": 2025,
+   "top": [
+    {
+     "country": "Nepal",
+     "value_usd": 4045451,
+     "net_kg": 12830988.0,
+     "usd_per_kg": 0.315
+    },
+    {
+     "country": "United Arab Emirates",
+     "value_usd": 2114833,
+     "net_kg": 3999900.0,
+     "usd_per_kg": 0.529
+    },
+    {
+     "country": "Bhutan",
+     "value_usd": 156164,
+     "net_kg": 429150.0,
+     "usd_per_kg": 0.364
+    },
+    {
+     "country": "Rep. of Korea",
+     "value_usd": 27180,
+     "net_kg": 22000.0,
+     "usd_per_kg": 1.235
+    },
+    {
+     "country": "Malaysia",
+     "value_usd": 1986,
+     "net_kg": 2004.0,
+     "usd_per_kg": 0.991
+    },
+    {
+     "country": "United Rep. of Tanzania",
+     "value_usd": 1120,
+     "net_kg": 2400.0,
+     "usd_per_kg": 0.467
+    },
+    {
+     "country": "Australia",
+     "value_usd": 31,
+     "net_kg": 20.0,
+     "usd_per_kg": 1.556
+    },
+    {
+     "country": "Singapore",
+     "value_usd": 4,
+     "net_kg": 6.0,
+     "usd_per_kg": 0.663
+    }
+   ]
+  },
+  "100829": {
+   "year": 2025,
+   "top": [
+    {
+     "country": "United Arab Emirates",
+     "value_usd": 6293312,
+     "net_kg": 18001020.0,
+     "usd_per_kg": 0.35
+    },
+    {
+     "country": "Saudi Arabia",
+     "value_usd": 6005271,
+     "net_kg": 15352365.0,
+     "usd_per_kg": 0.391
+    },
+    {
+     "country": "Nepal",
+     "value_usd": 4507387,
+     "net_kg": 12911881.0,
+     "usd_per_kg": 0.349
+    },
+    {
+     "country": "USA",
+     "value_usd": 3058013,
+     "net_kg": 2433240.0,
+     "usd_per_kg": 1.257
+    },
+    {
+     "country": "Algeria",
+     "value_usd": 1760334,
+     "net_kg": 4489275.0,
+     "usd_per_kg": 0.392
+    },
+    {
+     "country": "Libya",
+     "value_usd": 1601091,
+     "net_kg": 3736575.0,
+     "usd_per_kg": 0.428
+    },
+    {
+     "country": "Morocco",
+     "value_usd": 1534132,
+     "net_kg": 3843550.0,
+     "usd_per_kg": 0.399
+    },
+    {
+     "country": "Germany",
+     "value_usd": 1433431,
+     "net_kg": 1236787.0,
+     "usd_per_kg": 1.159
+    }
+   ]
+  },
+  "121190": {
+   "year": 2025,
+   "top": [
+    {
+     "country": "USA",
+     "value_usd": 139166403,
+     "net_kg": 24941430.0,
+     "usd_per_kg": 5.58
+    },
+    {
+     "country": "Germany",
+     "value_usd": 70155526,
+     "net_kg": 11502193.0,
+     "usd_per_kg": 6.099
+    },
+    {
+     "country": "Italy",
+     "value_usd": 40832008,
+     "net_kg": 6345094.0,
+     "usd_per_kg": 6.435
+    },
+    {
+     "country": "China",
+     "value_usd": 18261557,
+     "net_kg": 14403449.0,
+     "usd_per_kg": 1.268
+    },
+    {
+     "country": "United Arab Emirates",
+     "value_usd": 17171739,
+     "net_kg": 5043392.0,
+     "usd_per_kg": 3.405
+    },
+    {
+     "country": "France",
+     "value_usd": 13959066,
+     "net_kg": 2302237.0,
+     "usd_per_kg": 6.063
+    },
+    {
+     "country": "Bangladesh",
+     "value_usd": 13665364,
+     "net_kg": 10994589.0,
+     "usd_per_kg": 1.243
+    },
+    {
+     "country": "United Kingdom",
+     "value_usd": 13548313,
+     "net_kg": 1864684.0,
+     "usd_per_kg": 7.266
+    }
+   ]
+  },
+  "150810": {
+   "year": 2025,
+   "top": [
+    {
+     "country": "China",
+     "value_usd": 307501404,
+     "net_kg": 207813845.0,
+     "usd_per_kg": 1.48
+    },
+    {
+     "country": "Viet Nam",
+     "value_usd": 17451047,
+     "net_kg": 11502230.0,
+     "usd_per_kg": 1.517
+    },
+    {
+     "country": "Sudan",
+     "value_usd": 4421105,
+     "net_kg": 2896315.0,
+     "usd_per_kg": 1.526
+    },
+    {
+     "country": "USA",
+     "value_usd": 1837119,
+     "net_kg": 798090.0,
+     "usd_per_kg": 2.302
+    },
+    {
+     "country": "Australia",
+     "value_usd": 960107,
+     "net_kg": 536556.0,
+     "usd_per_kg": 1.789
+    },
+    {
+     "country": "United Arab Emirates",
+     "value_usd": 401450,
+     "net_kg": 161674.0,
+     "usd_per_kg": 2.483
+    },
+    {
+     "country": "Canada",
+     "value_usd": 248929,
+     "net_kg": 114077.0,
+     "usd_per_kg": 2.182
+    },
+    {
+     "country": "Singapore",
+     "value_usd": 199275,
+     "net_kg": 57701.0,
+     "usd_per_kg": 3.454
+    }
+   ]
+  },
+  "150890": {
+   "year": 2025,
+   "top": [
+    {
+     "country": "USA",
+     "value_usd": 4178706,
+     "net_kg": 1373714.0,
+     "usd_per_kg": 3.042
+    },
+    {
+     "country": "Viet Nam",
+     "value_usd": 1682975,
+     "net_kg": 1006266.0,
+     "usd_per_kg": 1.672
+    },
+    {
+     "country": "United Arab Emirates",
+     "value_usd": 1155710,
+     "net_kg": 370296.0,
+     "usd_per_kg": 3.121
+    },
+    {
+     "country": "Singapore",
+     "value_usd": 763248,
+     "net_kg": 280552.0,
+     "usd_per_kg": 2.721
+    },
+    {
+     "country": "Kuwait",
+     "value_usd": 710357,
+     "net_kg": 256223.0,
+     "usd_per_kg": 2.772
+    },
+    {
+     "country": "Australia",
+     "value_usd": 645416,
+     "net_kg": 246905.0,
+     "usd_per_kg": 2.614
+    },
+    {
+     "country": "Canada",
+     "value_usd": 607123,
+     "net_kg": 268207.0,
+     "usd_per_kg": 2.264
+    },
+    {
+     "country": "United Kingdom",
+     "value_usd": 360214,
+     "net_kg": 140784.0,
+     "usd_per_kg": 2.559
+    }
+   ]
+  },
+  "151311": {
+   "year": 2025,
+   "top": [
+    {
+     "country": "United Arab Emirates",
+     "value_usd": 4659930,
+     "net_kg": 1224521.0,
+     "usd_per_kg": 3.806
+    },
+    {
+     "country": "Qatar",
+     "value_usd": 1703234,
+     "net_kg": 398790.0,
+     "usd_per_kg": 4.271
+    },
+    {
+     "country": "Dominican Rep.",
+     "value_usd": 1222094,
+     "net_kg": 298000.0,
+     "usd_per_kg": 4.101
+    },
+    {
+     "country": "T\u00fcrkiye",
+     "value_usd": 406407,
+     "net_kg": 129500.0,
+     "usd_per_kg": 3.138
+    },
+    {
+     "country": "Kenya",
+     "value_usd": 332382,
+     "net_kg": 72641.0,
+     "usd_per_kg": 4.576
+    },
+    {
+     "country": "Nepal",
+     "value_usd": 312578,
+     "net_kg": 126815.0,
+     "usd_per_kg": 2.465
+    },
+    {
+     "country": "Thailand",
+     "value_usd": 280821,
+     "net_kg": 67850.0,
+     "usd_per_kg": 4.139
+    },
+    {
+     "country": "United Rep. of Tanzania",
+     "value_usd": 203525,
+     "net_kg": 53637.0,
+     "usd_per_kg": 3.794
+    }
+   ]
+  },
+  "151319": {
+   "year": 2025,
+   "top": [
+    {
+     "country": "United Arab Emirates",
+     "value_usd": 19522207,
+     "net_kg": 4785996.0,
+     "usd_per_kg": 4.079
+    },
+    {
+     "country": "Saudi Arabia",
+     "value_usd": 7020301,
+     "net_kg": 1826732.0,
+     "usd_per_kg": 3.843
+    },
+    {
+     "country": "USA",
+     "value_usd": 6327109,
+     "net_kg": 1247202.0,
+     "usd_per_kg": 5.073
+    },
+    {
+     "country": "Qatar",
+     "value_usd": 3283220,
+     "net_kg": 828624.0,
+     "usd_per_kg": 3.962
+    },
+    {
+     "country": "Slovenia",
+     "value_usd": 2516458,
+     "net_kg": 636000.0,
+     "usd_per_kg": 3.957
+    },
+    {
+     "country": "United Rep. of Tanzania",
+     "value_usd": 2416175,
+     "net_kg": 565063.0,
+     "usd_per_kg": 4.276
+    },
+    {
+     "country": "Oman",
+     "value_usd": 2059418,
+     "net_kg": 547032.0,
+     "usd_per_kg": 3.765
+    },
+    {
+     "country": "Sri Lanka",
+     "value_usd": 1839591,
+     "net_kg": 374987.0,
+     "usd_per_kg": 4.906
+    }
+   ]
+  },
+  "151590": {
+   "year": 2025,
+   "top": [
+    {
+     "country": "Malaysia",
+     "value_usd": 42780197,
+     "net_kg": 6892521.0,
+     "usd_per_kg": 6.207
+    },
+    {
+     "country": "Uruguay",
+     "value_usd": 26738150,
+     "net_kg": 2811176.0,
+     "usd_per_kg": 9.511
+    },
+    {
+     "country": "Russian Federation",
+     "value_usd": 26074049,
+     "net_kg": 3484407.0,
+     "usd_per_kg": 7.483
+    },
+    {
+     "country": "USA",
+     "value_usd": 17329162,
+     "net_kg": 6009520.0,
+     "usd_per_kg": 2.884
+    },
+    {
+     "country": "Italy",
+     "value_usd": 10712992,
+     "net_kg": 1552643.0,
+     "usd_per_kg": 6.9
+    },
+    {
+     "country": "Spain",
+     "value_usd": 7564446,
+     "net_kg": 1836844.0,
+     "usd_per_kg": 4.118
+    },
+    {
+     "country": "T\u00fcrkiye",
+     "value_usd": 4486037,
+     "net_kg": 616634.0,
+     "usd_per_kg": 7.275
+    },
+    {
+     "country": "Netherlands",
+     "value_usd": 4168564,
+     "net_kg": 959630.0,
+     "usd_per_kg": 4.344
+    }
+   ]
+  },
+  "170113": {
+   "year": 2025,
+   "top": [
+    {
+     "country": "Malaysia",
+     "value_usd": 5998144,
+     "net_kg": 11977292.0,
+     "usd_per_kg": 0.501
+    },
+    {
+     "country": "USA",
+     "value_usd": 4281516,
+     "net_kg": 3688237.0,
+     "usd_per_kg": 1.161
+    },
+    {
+     "country": "Singapore",
+     "value_usd": 3653486,
+     "net_kg": 6660682.0,
+     "usd_per_kg": 0.549
+    },
+    {
+     "country": "Kenya",
+     "value_usd": 3126231,
+     "net_kg": 6064313.0,
+     "usd_per_kg": 0.516
+    },
+    {
+     "country": "United Rep. of Tanzania",
+     "value_usd": 2923134,
+     "net_kg": 5838989.0,
+     "usd_per_kg": 0.501
+    },
+    {
+     "country": "United Arab Emirates",
+     "value_usd": 2644930,
+     "net_kg": 3094516.0,
+     "usd_per_kg": 0.855
+    },
+    {
+     "country": "Somalia",
+     "value_usd": 1887631,
+     "net_kg": 3410000.0,
+     "usd_per_kg": 0.554
+    },
+    {
+     "country": "Djibouti",
+     "value_usd": 1840212,
+     "net_kg": 3358550.0,
+     "usd_per_kg": 0.548
+    }
+   ]
+  },
+  "320300": {
+   "year": 2025,
+   "top": [
+    {
+     "country": "Ghana",
+     "value_usd": 3544745,
+     "net_kg": 45221.0,
+     "usd_per_kg": 78.387
+    },
+    {
+     "country": "Senegal",
+     "value_usd": 3111713,
+     "net_kg": 297000.0,
+     "usd_per_kg": 10.477
+    },
+    {
+     "country": "United Arab Emirates",
+     "value_usd": 2681187,
+     "net_kg": 2998281.0,
+     "usd_per_kg": 0.894
+    },
+    {
+     "country": "Japan",
+     "value_usd": 1977207,
+     "net_kg": 40427.0,
+     "usd_per_kg": 48.908
+    },
+    {
+     "country": "Rep. of Korea",
+     "value_usd": 1895654,
+     "net_kg": 27595.0,
+     "usd_per_kg": 68.696
+    },
+    {
+     "country": "Israel",
+     "value_usd": 1617808,
+     "net_kg": 3146.0,
+     "usd_per_kg": 514.243
+    },
+    {
+     "country": "USA",
+     "value_usd": 1552576,
+     "net_kg": 47151.0,
+     "usd_per_kg": 32.928
+    },
+    {
+     "country": "China",
+     "value_usd": 1471863,
+     "net_kg": 342706.0,
+     "usd_per_kg": 4.295
+    }
+   ]
+  }
+ },
+ "agmarknet": {
+  "1": {
+   "name": "Wheat",
+   "reported_date": "25-10-2026",
+   "price_rs_q": 2607.99,
+   "prev1_rs_q": 2716.05,
+   "prev2_rs_q": 2670.79,
+   "arrival_t": 1030.3,
+   "prev1_arrival_t": 3491.77,
+   "prev2_arrival_t": 11081.7,
+   "three_day_arrival_weighted_rs_q": 2676.77,
+   "msp_rs_q": 2585.0,
+   "trend": "up"
+  },
+  "10": {
+   "name": "Groundnut",
+   "reported_date": "25-10-2026",
+   "price_rs_q": 6601.1,
+   "prev1_rs_q": 7845.45,
+   "prev2_rs_q": 8003.99,
+   "arrival_t": 73.22,
+   "prev1_arrival_t": 4256.37,
+   "prev2_arrival_t": 6353.38,
+   "three_day_arrival_weighted_rs_q": 7931.21,
+   "msp_rs_q": 7517.0,
+   "trend": "down"
+  },
+  "28": {
+   "name": "Bajra(Pearl Millet/Cumbu)",
+   "reported_date": "25-10-2026",
+   "price_rs_q": 2453.25,
+   "prev1_rs_q": 2421.92,
+   "prev2_rs_q": 2434.82,
+   "arrival_t": 2422.91,
+   "prev1_arrival_t": 7820.41,
+   "prev2_arrival_t": 7697.81,
+   "three_day_arrival_weighted_rs_q": 2431.69,
+   "msp_rs_q": 2900.0,
+   "trend": "down"
+  },
+  "30": {
+   "name": "Ragi(Finger Millet)",
+   "reported_date": "25-10-2026",
+   "price_rs_q": 5000.0,
+   "prev1_rs_q": 3303.2,
+   "prev2_rs_q": 3438.91,
+   "arrival_t": 0.1,
+   "prev1_arrival_t": 25.0,
+   "prev2_arrival_t": 273.9,
+   "three_day_arrival_weighted_rs_q": 3428.09,
+   "msp_rs_q": 5205.0,
+   "trend": "down"
+  },
+  "35": {
+   "name": "Turmeric",
+   "reported_date": "25-10-2026",
+   "price_rs_q": 19500.0,
+   "prev1_rs_q": 21785.61,
+   "prev2_rs_q": 19818.67,
+   "arrival_t": 2.0,
+   "prev1_arrival_t": 26.33,
+   "prev2_arrival_t": 603.14,
+   "three_day_arrival_weighted_rs_q": 19899.67,
+   "msp_rs_q": null,
+   "trend": null
+  },
+  "61": {
+   "name": "Gur(Jaggery)",
+   "reported_date": "25-10-2026",
+   "price_rs_q": 5329.82,
+   "prev1_rs_q": 4506.19,
+   "prev2_rs_q": 4653.75,
+   "arrival_t": 55.1,
+   "prev1_arrival_t": 584.8,
+   "prev2_arrival_t": 650.8,
+   "three_day_arrival_weighted_rs_q": 4615.75,
+   "msp_rs_q": null,
+   "trend": null
+  },
+  "101": {
+   "name": "Kodo Millet(Varagu)",
+   "reported_date": "25-10-2026",
+   "price_rs_q": 2100.0,
+   "prev1_rs_q": 2320.56,
+   "prev2_rs_q": 2295.13,
+   "arrival_t": 8.0,
+   "prev1_arrival_t": 112.86,
+   "prev2_arrival_t": 101.67,
+   "three_day_arrival_weighted_rs_q": 2301.01,
+   "msp_rs_q": null,
+   "trend": null
+  },
+  "104": {
+   "name": "Foxtail Millet(Navane)",
+   "reported_date": "25-10-2026",
+   "price_rs_q": 4800.0,
+   "prev1_rs_q": 4061.0,
+   "prev2_rs_q": 3013.8,
+   "arrival_t": 18.0,
+   "prev1_arrival_t": 0.2,
+   "prev2_arrival_t": 1.0,
+   "three_day_arrival_weighted_rs_q": 4699.27,
+   "msp_rs_q": null,
+   "trend": null
+  },
+  "109": {
+   "name": "Neem Seed",
+   "reported_date": "25-10-2026",
+   "price_rs_q": null,
+   "prev1_rs_q": null,
+   "prev2_rs_q": 1275.0,
+   "arrival_t": null,
+   "prev1_arrival_t": null,
+   "prev2_arrival_t": 30.07,
+   "three_day_arrival_weighted_rs_q": 1275.0,
+   "msp_rs_q": null,
+   "trend": null
+  },
+  "111": {
+   "name": "Copra",
+   "reported_date": "25-10-2026",
+   "price_rs_q": 24550.0,
+   "prev1_rs_q": 18131.47,
+   "prev2_rs_q": 25232.86,
+   "arrival_t": 10.0,
+   "prev1_arrival_t": 150.6,
+   "prev2_arrival_t": 227.3,
+   "three_day_arrival_weighted_rs_q": 22458.18,
+   "msp_rs_q": 12100.0,
+   "trend": "up"
+  },
+  "220": {
+   "name": "Coconut Oil",
+   "reported_date": "25-10-2026",
+   "price_rs_q": 28800.0,
+   "prev1_rs_q": 28315.46,
+   "prev2_rs_q": null,
+   "arrival_t": 0.25,
+   "prev1_arrival_t": 24.25,
+   "prev2_arrival_t": null,
+   "three_day_arrival_weighted_rs_q": 28320.4,
+   "msp_rs_q": null,
+   "trend": null
+  }
+ },
+ "hs_desc": {
+  "121190": "Plants and parts of plants used in pharmacy/perfumery, n.e.s. (pooled: moringa, ashwagandha, neem, curry leaf, vetiver and hundreds of other herbs)",
+  "320300": "Colouring matter of vegetable origin (pooled: natural indigo and other plant dyes)",
+  "091030": "Turmeric (curcuma)",
+  "170113": "Cane sugar, non-centrifugal, solid, without flavouring (jaggery/gur; blocks and powder pooled)",
+  "100829": "Millet, other than seed for sowing (pooled: bajra, ragi, foxtail and other millets)",
+  "100199": "Wheat and meslin, other than durum and seed (pooled: khapli/emmer with common wheat)",
+  "150810": "Groundnut oil, crude",
+  "150890": "Groundnut oil, other than crude (refined, filtered, cold-pressed pooled)",
+  "151311": "Coconut (copra) oil, crude",
+  "151319": "Coconut (copra) oil, other than crude",
+  "151590": "Other fixed vegetable fats and oils (pooled: karanja, moringa seed and many others)"
+ }
+}

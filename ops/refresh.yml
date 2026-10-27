@@ -1,0 +1,31 @@
+name: weekly-refresh
+on:
+  schedule:
+    - cron: "30 3 * * 1"   # every Monday 03:30 UTC (09:00 IST)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: refresh
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch public data (keyless) and append history
+        run: python scripts/fetch.py
+      - name: Build site
+        run: python scripts/build.py
+      - name: Commit snapshot
+        run: |
+          git config user.name "price-index-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "weekly snapshot $(date -u +%F)"
+          git push
+      - name: Ping IndexNow (Bing, Yandex, Seznam, Naver)
+        continue-on-error: true
+        run: python scripts/indexnow.py
