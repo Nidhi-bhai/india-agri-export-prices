@@ -70,6 +70,23 @@ def agm_latest(a):
         if a.get(k): return a[k], {"price_rs_q": 0, "prev1_rs_q": 1, "prev2_rs_q": 2}[k]
     return None, None
 
+def sharers(h, p=None):
+    """Other products on this site that share HS code h."""
+    return [q["name"] for q in PRODUCTS if h in q["hs"] and q is not p]
+
+def low_sample(k):
+    return k.get("n") is not None and k["n"] < 3
+
+def sample_txt(k):
+    return f'n={k["n"]} {k.get("n_unit","data points")}' if k.get("n") is not None else ""
+
+LEGEND = ("<div class=\"warn\"><b>Which figures are which.</b> "
+  "<b>Official export unit value (FOB basis)</b>: UN Comtrade data. India's declared FOB export value divided by net weight, for everything shipped under one HS customs code. "
+  "Where several products share one HS code we label it an <b>HS-code group average</b>: it is the same number for every product in that code and is not the price of any one product. "
+  "<b>Estimate</b>: our desk range from public seller offers, trade reports and shipment records (indicative, not quotes, and not verified FOB unless the basis says so), with the number of data points (n). "
+  "Ranges with n&lt;3 are flagged <b>low sample</b>. "
+  "<b>Mandi price / calculated</b>: Indian wholesale farm-gate prices, not export prices.</div>")
+
 def product_rows(p):
     """Return list of flat metric rows (also used for CSV)."""
     rows = []
@@ -77,12 +94,19 @@ def product_rows(p):
         m = S["comtrade_monthly"].get(h) or []
         if m:
             r = m[0]
-            rows.append(dict(product=p["name"], slug=p["slug"], metric=f"India export unit value, HS {h}" + (" (pooled category)" if p["pooled"] else ""),
+            sh = sharers(h, p)
+            if p["pooled"]:
+                metric = (f"HS {h} group average export unit value (FOB basis, all goods in this HS code; not a {p['name'].lower()} price)")
+                note = ("Same figure shown for: " + ", ".join(sh) + ". " if sh else "") + "Pooled customs code: " + HS_DESC.get(h, "")
+            else:
+                metric = f"India export unit value, HS {h} (FOB basis)"
+                note = ""
+            rows.append(dict(product=p["name"], slug=p["slug"], metric=metric,
                 value=r["usd_per_kg"], unit="USD/kg", period=per(r["period"]), source="UN Comtrade (monthly, India reporter, FOB value / net weight)",
-                source_url=CT_URL.format(h=h), type="official statistic"))
+                source_url=CT_URL.format(h=h), type="official statistic", note=note, hs_group=h if p["pooled"] else ""))
             vals = [x["usd_per_kg"] for x in m if x["usd_per_kg"] is not None]
             if len(vals) >= 3:
-                rows.append(dict(product=p["name"], slug=p["slug"], metric=f"12-month range of monthly unit value, HS {h}",
+                rows.append(dict(product=p["name"], slug=p["slug"], metric=f"12-month range of monthly unit value, HS {h}" + (" (group average, not a product price)" if p["pooled"] else ""),
                     value=f"{min(vals):.2f}–{max(vals):.2f}", unit="USD/kg", period=f"{per(m[-1]['period'])} – {per(m[0]['period'])}",
                     source="UN Comtrade", source_url=CT_URL.format(h=h), type="official statistic"))
     for cid, label in p["agm"]:
@@ -104,8 +128,12 @@ def product_rows(p):
     if p["desk"] and p["desk"] in DESK["items"]:
         k = DESK["items"][p["desk"]]
         val = f"{k['low']:.2f}" if k["low"] == k["high"] else f"{k['low']:.2f}–{k['high']:.2f}"
-        rows.append(dict(product=p["name"], slug=p["slug"], metric="Indicative export FOB range seen in public offers", value=val, unit="USD/kg",
-            period=f"compiled {DESK['compiled']}", source="Nidhi Farms desk research: " + k["basis"], source_url=k["sources"][0], type="ESTIMATE"))
+        st = sample_txt(k)
+        rows.append(dict(product=p["name"], slug=p["slug"],
+            metric="Desk estimate: indicative export price from public offers/reports (not a quote; see basis)" + (f" ({st})" if st else "") + (": LOW SAMPLE" if low_sample(k) else ""),
+            value=val, unit="USD/kg",
+            period=f"compiled {DESK['compiled']}", source="Nidhi Farms desk research: " + k["basis"], source_url=k["sources"][0], type="ESTIMATE",
+            note=(f"Low sample: based on {st}. Treat as a single reference point, not a market price." if low_sample(k) else ""), sample_n=k.get("n")))
     return rows
 
 def table(rows):
@@ -141,8 +169,14 @@ def faq(p, rows):
     est = next((r for r in rows if r["type"] == "ESTIMATE"), None)
     qa = []
     a = []
-    if est: a.append(f"Public export offers we have seen range {est['value']} USD/kg FOB (estimate, {est['period']}).")
-    if ct: a.append(f"India's official export unit value for {ct['metric'].split(', ')[-1]} was {num(ct['value'],2)} USD/kg in {ct['period']} (UN Comtrade){' — a pooled customs category, so treat it as context, not a product price' if p['pooled'] else ''}.")
+    if est:
+        lo = f" This is a low-sample figure (n={est['sample_n']}), not a market price." if est.get("sample_n") is not None and est["sample_n"] < 3 else (f" Based on n={est['sample_n']} data points." if est.get("sample_n") else "")
+        a.append(f"Our desk estimate from public seller offers and trade reports is {est['value']} USD/kg ({est['period']}; indicative, not a quote).{lo}")
+    if ct:
+        if p["pooled"]:
+            a.append(f"The HS {ct['hs_group']} group average export unit value (FOB basis, UN Comtrade) was {num(ct['value'],2)} USD/kg in {ct['period']}. That code pools {p['name'].lower()} with other goods, so it is market context, not the price of {p['name'].lower()}.")
+        else:
+            a.append(f"India's official export unit value (FOB basis, UN Comtrade) for {ct['metric'].split(', ')[-1]} was {num(ct['value'],2)} USD/kg in {ct['period']}.")
     if not a: a.append("There is no reliable public price series for this product yet, so we publish none. Ask for a live quote instead.")
     a.append("Firm prices depend on grade, quantity, packing and destination; email for a quote.")
     qa.append((f"What is the export price of {p['name'].lower()} from India?", " ".join(a)))
@@ -159,14 +193,24 @@ def build():
         rows = product_rows(p); all_rows += rows
         title = f"{p['name']} export price from India (USD/kg), updated weekly"
         head = next((r for r in rows if r["type"] == "ESTIMATE"), None) or next((r for r in rows if r["unit"] == "USD/kg"), None)
-        desc = (f"{p['name']} export price from India: " + (f"{head['value']} USD/kg ({head['type']}, {head['period']}). " if head else "")
+        def head_txt(hd):
+            if not hd: return ""
+            if hd["type"] == "official statistic" and hd.get("hs_group"):
+                return f"HS {hd['hs_group']} group average {hd['value']} USD/kg (pooled code, not a product price, {hd['period']}). "
+            if hd["type"] == "ESTIMATE":
+                sn = f", n={hd['sample_n']}" + (" low sample" if hd['sample_n'] < 3 else "") if hd.get("sample_n") is not None else ""
+                return f"{hd['value']} USD/kg (desk estimate{sn}, {hd['period']}). "
+            return f"{hd['value']} USD/kg ({hd['type']}, {hd['period']}). "
+        desc = (f"{p['name']} export price from India: " + head_txt(head)
                 + "Official UN Comtrade and Agmarknet data with sources, weekly history, free CSV/JSON.")
         fq, ld = faq(p, rows)
         others = " · ".join(f'<a href="{q["slug"]}.html">{e(q["name"])}</a>' for q in PRODUCTS if q is not p)
+        shr = sorted({n for h in p["hs"] for n in sharers(h, p)})
         pooled = (f'<p class="warn">HS code {", ".join(p["hs"])} is a pooled customs category: it mixes {e(p["name"].lower())} with other goods. '
-                  'Its unit value is context for the market, not the price of this exact product.</p>') if p["pooled"] and p["hs"] else ""
+                  'Its unit value is an <b>HS-code group average</b>, not the price of this exact product'
+                  + (f' (the same figure appears on the pages for {e(", ".join(shr))})' if shr else '') + '.</p>') if p["pooled"] and p["hs"] else ""
         body = (f'<h1>{e(title)}</h1><p class="sub">Snapshot {S["snapshot_date"]}. Every number shows its source and date. Green = official statistic; amber = estimate or our calculation.</p>'
-                + cta(p["name"]) + "<h2>Latest prices</h2>" + pooled + table(rows)
+                + cta(p["name"]) + "<h2>Latest prices</h2>" + pooled + LEGEND + table(rows)
                 + "".join(trend(h) + dests(h) for h in p["hs"])
                 + "<h2>Questions</h2>" + fq + cta(p["name"])
                 + f'<h2>Other products</h2><p>{others}</p><p class="note">Download: <a href="data/latest.csv">latest.csv</a> · <a href="data/latest.json">latest.json</a> · <a href="data/history.csv">history.csv</a> · <a href="methodology.html">methodology</a></p>')
@@ -176,10 +220,12 @@ def build():
         open(os.path.join(D, "p", p["slug"] + ".html"), "w").write(page(title, desc, f"p/{p['slug']}.html", body.replace('href="data/', 'href="../data/').replace('href="methodology', 'href="../methodology'), [dl, ld]))
         n_off = sum(1 for r in rows if r["type"] == "official statistic")
         cards.append(f'<div class="card"><a href="p/{p["slug"]}.html">{e(p["name"])}</a><br><span class="note">'
-                     + (f'{e(str(head["value"]))} {head["unit"]} <span class="tag {"est" if head["type"]!="official statistic" else "off"}">{e(head["type"])}{" · pooled HS code" if (p["pooled"] and head["type"]=="official statistic") else ""}</span>' if head else "no reliable public price yet")
+                     + ((f'HS {head["hs_group"]} group avg: ' if head.get("hs_group") else "") + f'{e(str(head["value"]))} {head["unit"]} <span class="tag {"est" if head["type"]!="official statistic" else "off"}">'
+                        + (f'{e(head["type"])} · pooled HS code, not a product price' if head.get("hs_group") else (f'estimate · n={head["sample_n"]}' + (' · LOW SAMPLE' if head["sample_n"] < 3 else '') if head["type"] == "ESTIMATE" and head.get("sample_n") is not None else e(head["type"])))
+                        + '</span>' if head else "no reliable public price yet")
                      + f'<br>{n_off} official series</span></div>')
     # CSV / JSON downloads
-    cols = ["product", "slug", "metric", "value", "unit", "period", "source", "source_url", "type", "note"]
+    cols = ["product", "slug", "metric", "value", "unit", "period", "source", "source_url", "type", "note", "hs_group", "sample_n"]
     with open(os.path.join(D, "data", "latest.csv"), "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=cols); w.writeheader()
         for r in all_rows: w.writerow({k: r.get(k, "") for k in cols})
@@ -187,7 +233,7 @@ def build():
     # index
     body = (f'<h1>India Agri Export Price Index</h1><p class="sub">Free weekly reference prices for {len(PRODUCTS)} Indian agri exports — herbs, spices, jaggery, millets, cold-pressed oils and roots. '
             f'Official data from UN Comtrade and Agmarknet, plus clearly-labelled estimates. Snapshot {S["snapshot_date"]}.</p>'
-            + f'<div class="grid">{"".join(cards)}</div>' + cta("Indian agri products")
+            + LEGEND + f'<div class="grid">{"".join(cards)}</div>' + cta("Indian agri products")
             + '<h2>What this is</h2><p>Buyers and importers ask the same question every week: "what does this cost from India right now?" Public data exists but is scattered across UN Comtrade, government mandi dashboards and seller listings. '
               'This index pulls it together once a week, shows the source and date beside every number, and never fills a gap with a guess. Each weekly snapshot is appended to <a href="data/history.csv">history.csv</a>, so the record gets longer every week.</p>'
             + '<h2>Downloads</h2><ul><li><a href="data/latest.csv">latest.csv</a> — every metric on this site, flat</li><li><a href="data/latest.json">latest.json</a> — raw weekly snapshot</li><li><a href="data/index.json">index.json</a> — the rows behind the pages</li><li><a href="data/history.csv">history.csv</a> — append-only weekly history</li></ul>'
@@ -199,9 +245,9 @@ def build():
     open(os.path.join(D, "index.html"), "w").write(page("India Agri Export Price Index: moringa, turmeric, millets, jaggery, oils (USD/kg, weekly)",
         "Free weekly export prices from India for moringa, ashwagandha, turmeric, jaggery, millets, cold-pressed oils and vetiver. Sourced from UN Comtrade and Agmarknet. CSV/JSON.", "", body, ld))
     meth = f"""<h1>Methodology</h1><p class="sub">How every number on this site is produced, in plain English.</p>
-<h2>1. Official export statistics (UN Comtrade)</h2><p>India reports its exports to the UN every month by customs code (HS code). We take the value (USD, FOB) and the net weight (kg) and divide one by the other. That gives a <b>unit value</b> in USD/kg: the average price of everything India shipped under that code that month. Comtrade publishes with a lag of a few months, so the latest month is usually 2–4 months old. Many of our products share a code with other goods (e.g. HS 121190 covers moringa, ashwagandha, neem, vetiver and hundreds of other herbs). We mark those as <b>pooled</b>: useful as market context, not as the price of the exact product. We use the free public Comtrade preview API.</p>
+<h2>1. Official export statistics (UN Comtrade)</h2><p>India reports its exports to the UN every month by customs code (HS code). We take the value (USD, FOB) and the net weight (kg) and divide one by the other. That gives a <b>unit value</b> in USD/kg: the average price of everything India shipped under that code that month. Comtrade publishes with a lag of a few months, so the latest month is usually 2–4 months old. Many of our products share a code with other goods (e.g. HS 121190 covers moringa, ashwagandha, neem, vetiver and hundreds of other herbs). We mark those as <b>pooled</b> and label the figure an <b>HS-code group average</b>: every product in that code shows the same number (e.g. karanja oil and moringa seed oil both sit in HS 151590), so it is market context, not the price of the exact product. Comtrade values are FOB-basis (declared export value at the Indian port), so these are the only figures on the site that are FOB-basis official data. We use the free public Comtrade preview API.</p>
 <h2>2. Indian wholesale mandi prices (Agmarknet)</h2><p>The Government of India's Agmarknet portal publishes daily all-India average prices (INR per quintal = 100 kg) and arrivals for commodities traded in regulated markets (APMCs). These are <b>raw, farm-gate commodity prices</b> (e.g. turmeric fingers, jaggery blocks, millet grain) before cleaning, grading, grinding, packing, testing and port costs, so they sit well below export prices. We show the latest day reported and the arrivals that day; low arrivals mean a thin, noisy price. The USD/kg conversion uses the European Central Bank USD/INR reference rate (via frankfurter.dev).</p>
-<h2>3. Estimates (labelled ESTIMATE)</h2><p>For powders and niche items there is no official price series. Our desk compiles ranges from public seller offers, rate cards and trade reports, with links. These are asks, not transaction prices. We only publish ranges for products where the export economics are positive; we do not publish a figure where we have no source.</p>
+<h2>3. Estimates (labelled ESTIMATE)</h2><p>For powders and niche items there is no official price series. Our desk compiles ranges from public seller offers, rate cards and trade reports, with links. These are asking prices, not transaction prices, and are not verified FOB unless the basis says so. Each range shows n, the number of data points behind it; ranges with n&lt;3 are flagged <b>low sample</b> (e.g. khapli wheat: one shipment). We only publish ranges for products where the export economics are positive; we do not publish a figure where we have no source.</p>
 <h2>4. Empty cells</h2><p>If a source has no data for a product this week, the cell stays empty. We never interpolate or invent.</p>
 <h2>5. Weekly refresh and history</h2><p>A scheduled job runs once a week, fetches every source again, rebuilds the pages and <b>appends</b> the new snapshot to <a href="data/history.csv">history.csv</a>. Old rows are never rewritten. If a source is down, the previous values are kept and marked stale in latest.json.</p>
 <h2>6. Who publishes this</h2><p>Nidhi Farms, a sourcing firm (trader) in Andhra Pradesh, India. We are not a grower and we do not sell certified organic product. Correspondence: c/o GITAM Post Office, Back Gate, Visakhapatnam 530045, India. Questions or corrections: <a href="mailto:{EMAIL}?subject=Price%20index%20correction">{EMAIL}</a>.</p>"""

@@ -10,18 +10,20 @@
   {
    "product": "Moringa leaf powder",
    "slug": "moringa-leaf-powder",
-   "metric": "India export unit value, HS 121190 (pooled category)",
+   "metric": "HS 121190 group average export unit value (FOB basis, all goods in this HS code; not a moringa leaf powder price)",
    "value": 4.056,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=121190&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Same figure shown for: Ashwagandha root powder, Neem leaf powder, Curry leaf powder, Vetiver (khus) root, dried. Pooled customs code: Plants and parts of plants used in pharmacy/perfumery, n.e.s. (pooled: moringa, ashwagandha, neem, curry leaf, vetiver and hundreds of other herbs)",
+   "hs_group": "121190"
   },
   {
    "product": "Moringa leaf powder",
    "slug": "moringa-leaf-powder",
-   "metric": "12-month range of monthly unit value, HS 121190",
+   "metric": "12-month range of monthly unit value, HS 121190 (group average, not a product price)",
    "value": "3.13\u20134.38",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -32,29 +34,33 @@
   {
    "product": "Moringa leaf powder",
    "slug": "moringa-leaf-powder",
-   "metric": "Indicative export FOB range seen in public offers",
+   "metric": "Desk estimate: indicative export price from public offers/reports (not a quote; see basis) (n=4 public sources)",
    "value": "2.25\u20136.00",
    "unit": "USD/kg",
    "period": "compiled 2026-10-23",
    "source": "Nidhi Farms desk research: Conventional powder, 4 public sources",
    "source_url": "https://www.botanikabharat.com/moringa-powder.php",
-   "type": "ESTIMATE"
+   "type": "ESTIMATE",
+   "note": "",
+   "sample_n": 4
   },
   {
    "product": "Ashwagandha root powder",
    "slug": "ashwagandha-root-powder",
-   "metric": "India export unit value, HS 121190 (pooled category)",
+   "metric": "HS 121190 group average export unit value (FOB basis, all goods in this HS code; not a ashwagandha root powder price)",
    "value": 4.056,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=121190&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Same figure shown for: Moringa leaf powder, Neem leaf powder, Curry leaf powder, Vetiver (khus) root, dried. Pooled customs code: Plants and parts of plants used in pharmacy/perfumery, n.e.s. (pooled: moringa, ashwagandha, neem, curry leaf, vetiver and hundreds of other herbs)",
+   "hs_group": "121190"
   },
   {
    "product": "Ashwagandha root powder",
    "slug": "ashwagandha-root-powder",
-   "metric": "12-month range of monthly unit value, HS 121190",
+   "metric": "12-month range of monthly unit value, HS 121190 (group average, not a product price)",
    "value": "3.13\u20134.38",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -65,29 +71,33 @@
   {
    "product": "Ashwagandha root powder",
    "slug": "ashwagandha-root-powder",
-   "metric": "Indicative export FOB range seen in public offers",
+   "metric": "Desk estimate: indicative export price from public offers/reports (not a quote; see basis) (n=4 public sources)",
    "value": "2.80\u20135.21",
    "unit": "USD/kg",
    "period": "compiled 2026-10-23",
    "source": "Nidhi Farms desk research: Conventional root powder, 4 public sources",
    "source_url": "https://arizoneinternational.com/herbs/ground-herbs/ashwagandha-powder",
-   "type": "ESTIMATE"
+   "type": "ESTIMATE",
+   "note": "",
+   "sample_n": 4
   },
   {
    "product": "Neem leaf powder",
    "slug": "neem-leaf-powder",
-   "metric": "India export unit value, HS 121190 (pooled category)",
+   "metric": "HS 121190 group average export unit value (FOB basis, all goods in this HS code; not a neem leaf powder price)",
    "value": 4.056,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=121190&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Same figure shown for: Moringa leaf powder, Ashwagandha root powder, Curry leaf powder, Vetiver (khus) root, dried. Pooled customs code: Plants and parts of plants used in pharmacy/perfumery, n.e.s. (pooled: moringa, ashwagandha, neem, curry leaf, vetiver and hundreds of other herbs)",
+   "hs_group": "121190"
   },
   {
    "product": "Neem leaf powder",
    "slug": "neem-leaf-powder",
-   "metric": "12-month range of monthly unit value, HS 121190",
+   "metric": "12-month range of monthly unit value, HS 121190 (group average, not a product price)",
    "value": "3.13\u20134.38",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -121,18 +131,20 @@
   {
    "product": "Curry leaf powder",
    "slug": "curry-leaf-powder",
-   "metric": "India export unit value, HS 121190 (pooled category)",
+   "metric": "HS 121190 group average export unit value (FOB basis, all goods in this HS code; not a curry leaf powder price)",
    "value": 4.056,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=121190&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Same figure shown for: Moringa leaf powder, Ashwagandha root powder, Neem leaf powder, Vetiver (khus) root, dried. Pooled customs code: Plants and parts of plants used in pharmacy/perfumery, n.e.s. (pooled: moringa, ashwagandha, neem, curry leaf, vetiver and hundreds of other herbs)",
+   "hs_group": "121190"
   },
   {
    "product": "Curry leaf powder",
    "slug": "curry-leaf-powder",
-   "metric": "12-month range of monthly unit value, HS 121190",
+   "metric": "12-month range of monthly unit value, HS 121190 (group average, not a product price)",
    "value": "3.13\u20134.38",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -143,29 +155,33 @@
   {
    "product": "Curry leaf powder",
    "slug": "curry-leaf-powder",
-   "metric": "Indicative export FOB range seen in public offers",
+   "metric": "Desk estimate: indicative export price from public offers/reports (not a quote; see basis) (n=3 seller asks)",
    "value": "2.80\u20135.00",
    "unit": "USD/kg",
    "period": "compiled 2026-10-23",
    "source": "Nidhi Farms desk research: Seller asks only (go4WorldBusiness, Botanika); outlier excluded",
    "source_url": "https://www.go4worldbusiness.com/pref_product/view/1925179/curry-leave-powder-%28dehydrated%29.html",
-   "type": "ESTIMATE"
+   "type": "ESTIMATE",
+   "note": "",
+   "sample_n": 3
   },
   {
    "product": "Indigo leaf powder",
    "slug": "indigo-leaf-powder",
-   "metric": "India export unit value, HS 320300 (pooled category)",
+   "metric": "HS 320300 group average export unit value (FOB basis, all goods in this HS code; not a indigo leaf powder price)",
    "value": 3.803,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=320300&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Pooled customs code: Colouring matter of vegetable origin (pooled: natural indigo and other plant dyes)",
+   "hs_group": "320300"
   },
   {
    "product": "Indigo leaf powder",
    "slug": "indigo-leaf-powder",
-   "metric": "12-month range of monthly unit value, HS 320300",
+   "metric": "12-month range of monthly unit value, HS 320300 (group average, not a product price)",
    "value": "3.51\u201310.81",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -176,13 +192,15 @@
   {
    "product": "Turmeric (finger and powder)",
    "slug": "turmeric",
-   "metric": "India export unit value, HS 091030",
+   "metric": "India export unit value, HS 091030 (FOB basis)",
    "value": 1.853,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=091030&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "",
+   "hs_group": ""
   },
   {
    "product": "Turmeric (finger and powder)",
@@ -221,18 +239,20 @@
   {
    "product": "Jaggery powder",
    "slug": "jaggery-powder",
-   "metric": "India export unit value, HS 170113 (pooled category)",
+   "metric": "HS 170113 group average export unit value (FOB basis, all goods in this HS code; not a jaggery powder price)",
    "value": 0.802,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=170113&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Pooled customs code: Cane sugar, non-centrifugal, solid, without flavouring (jaggery/gur; blocks and powder pooled)",
+   "hs_group": "170113"
   },
   {
    "product": "Jaggery powder",
    "slug": "jaggery-powder",
-   "metric": "12-month range of monthly unit value, HS 170113",
+   "metric": "12-month range of monthly unit value, HS 170113 (group average, not a product price)",
    "value": "0.66\u20130.82",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -266,29 +286,33 @@
   {
    "product": "Jaggery powder",
    "slug": "jaggery-powder",
-   "metric": "Indicative export FOB range seen in public offers",
+   "metric": "Desk estimate: indicative export price from public offers/reports (not a quote; see basis) (n=1 source): LOW SAMPLE",
    "value": "0.84\u20131.08",
    "unit": "USD/kg",
    "period": "compiled 2026-10-23",
    "source": "Nidhi Farms desk research: Powder, MOQ 10 MT, May 2026 (older); organic excluded",
    "source_url": "https://www.tradologie.com/blogs/jaggery-gur-export-from-india/",
-   "type": "ESTIMATE"
+   "type": "ESTIMATE",
+   "note": "Low sample: based on n=1 source. Treat as a single reference point, not a market price.",
+   "sample_n": 1
   },
   {
    "product": "Ragi (finger millet)",
    "slug": "ragi-finger-millet",
-   "metric": "India export unit value, HS 100829 (pooled category)",
+   "metric": "HS 100829 group average export unit value (FOB basis, all goods in this HS code; not a ragi (finger millet) price)",
    "value": 0.414,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=100829&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Same figure shown for: Bajra (pearl millet), Foxtail millet, Kodo, little, proso, barnyard and browntop millets. Pooled customs code: Millet, other than seed for sowing (pooled: bajra, ragi, foxtail and other millets)",
+   "hs_group": "100829"
   },
   {
    "product": "Ragi (finger millet)",
    "slug": "ragi-finger-millet",
-   "metric": "12-month range of monthly unit value, HS 100829",
+   "metric": "12-month range of monthly unit value, HS 100829 (group average, not a product price)",
    "value": "0.37\u20130.54",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -322,29 +346,33 @@
   {
    "product": "Ragi (finger millet)",
    "slug": "ragi-finger-millet",
-   "metric": "Indicative export FOB range seen in public offers",
+   "metric": "Desk estimate: indicative export price from public offers/reports (not a quote; see basis) (n=1 source (one cited band)): LOW SAMPLE",
    "value": "0.42\u20130.56",
    "unit": "USD/kg",
    "period": "compiled 2026-10-23",
    "source": "Nidhi Farms desk research: Tradologie band cited 14 Jul 2026 (older)",
    "source_url": "https://shipscout.ai/blog/millets-export-data-buyers-2026",
-   "type": "ESTIMATE"
+   "type": "ESTIMATE",
+   "note": "Low sample: based on n=1 source (one cited band). Treat as a single reference point, not a market price.",
+   "sample_n": 1
   },
   {
    "product": "Bajra (pearl millet)",
    "slug": "bajra-pearl-millet",
-   "metric": "India export unit value, HS 100829 (pooled category)",
+   "metric": "HS 100829 group average export unit value (FOB basis, all goods in this HS code; not a bajra (pearl millet) price)",
    "value": 0.414,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=100829&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Same figure shown for: Ragi (finger millet), Foxtail millet, Kodo, little, proso, barnyard and browntop millets. Pooled customs code: Millet, other than seed for sowing (pooled: bajra, ragi, foxtail and other millets)",
+   "hs_group": "100829"
   },
   {
    "product": "Bajra (pearl millet)",
    "slug": "bajra-pearl-millet",
-   "metric": "12-month range of monthly unit value, HS 100829",
+   "metric": "12-month range of monthly unit value, HS 100829 (group average, not a product price)",
    "value": "0.37\u20130.54",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -378,29 +406,33 @@
   {
    "product": "Bajra (pearl millet)",
    "slug": "bajra-pearl-millet",
-   "metric": "Indicative export FOB range seen in public offers",
+   "metric": "Desk estimate: indicative export price from public offers/reports (not a quote; see basis) (n=2 sources): LOW SAMPLE",
    "value": "0.31\u20130.40",
    "unit": "USD/kg",
    "period": "compiled 2026-10-23",
    "source": "Nidhi Farms desk research: Food grade, Tradologie band cited 14 Jul 2026 (older); feed grade lower",
    "source_url": "https://shipscout.ai/blog/millets-export-data-buyers-2026",
-   "type": "ESTIMATE"
+   "type": "ESTIMATE",
+   "note": "Low sample: based on n=2 sources. Treat as a single reference point, not a market price.",
+   "sample_n": 2
   },
   {
    "product": "Foxtail millet",
    "slug": "foxtail-millet",
-   "metric": "India export unit value, HS 100829 (pooled category)",
+   "metric": "HS 100829 group average export unit value (FOB basis, all goods in this HS code; not a foxtail millet price)",
    "value": 0.414,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=100829&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Same figure shown for: Ragi (finger millet), Bajra (pearl millet), Kodo, little, proso, barnyard and browntop millets. Pooled customs code: Millet, other than seed for sowing (pooled: bajra, ragi, foxtail and other millets)",
+   "hs_group": "100829"
   },
   {
    "product": "Foxtail millet",
    "slug": "foxtail-millet",
-   "metric": "12-month range of monthly unit value, HS 100829",
+   "metric": "12-month range of monthly unit value, HS 100829 (group average, not a product price)",
    "value": "0.37\u20130.54",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -434,29 +466,33 @@
   {
    "product": "Foxtail millet",
    "slug": "foxtail-millet",
-   "metric": "Indicative export FOB range seen in public offers",
+   "metric": "Desk estimate: indicative export price from public offers/reports (not a quote; see basis) (n=1 source (one cited band)): LOW SAMPLE",
    "value": "0.50\u20130.85",
    "unit": "USD/kg",
    "period": "compiled 2026-10-23",
    "source": "Nidhi Farms desk research: 'Small millets' band, likely cleaned/dehulled grain, cited 14 Jul 2026 (older)",
    "source_url": "https://shipscout.ai/blog/millets-export-data-buyers-2026",
-   "type": "ESTIMATE"
+   "type": "ESTIMATE",
+   "note": "Low sample: based on n=1 source (one cited band). Treat as a single reference point, not a market price.",
+   "sample_n": 1
   },
   {
    "product": "Kodo, little, proso, barnyard and browntop millets",
    "slug": "small-millets",
-   "metric": "India export unit value, HS 100829 (pooled category)",
+   "metric": "HS 100829 group average export unit value (FOB basis, all goods in this HS code; not a kodo, little, proso, barnyard and browntop millets price)",
    "value": 0.414,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=100829&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Same figure shown for: Ragi (finger millet), Bajra (pearl millet), Foxtail millet. Pooled customs code: Millet, other than seed for sowing (pooled: bajra, ragi, foxtail and other millets)",
+   "hs_group": "100829"
   },
   {
    "product": "Kodo, little, proso, barnyard and browntop millets",
    "slug": "small-millets",
-   "metric": "12-month range of monthly unit value, HS 100829",
+   "metric": "12-month range of monthly unit value, HS 100829 (group average, not a product price)",
    "value": "0.37\u20130.54",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -490,29 +526,33 @@
   {
    "product": "Kodo, little, proso, barnyard and browntop millets",
    "slug": "small-millets",
-   "metric": "Indicative export FOB range seen in public offers",
+   "metric": "Desk estimate: indicative export price from public offers/reports (not a quote; see basis) (n=1 source (one cited band)): LOW SAMPLE",
    "value": "0.50\u20130.85",
    "unit": "USD/kg",
    "period": "compiled 2026-10-23",
    "source": "Nidhi Farms desk research: 'Small millets' band, likely cleaned/dehulled grain, cited 14 Jul 2026 (older)",
    "source_url": "https://shipscout.ai/blog/millets-export-data-buyers-2026",
-   "type": "ESTIMATE"
+   "type": "ESTIMATE",
+   "note": "Low sample: based on n=1 source (one cited band). Treat as a single reference point, not a market price.",
+   "sample_n": 1
   },
   {
    "product": "Khapli (emmer) wheat and atta",
    "slug": "khapli-wheat",
-   "metric": "India export unit value, HS 100199 (pooled category)",
+   "metric": "HS 100199 group average export unit value (FOB basis, all goods in this HS code; not a khapli (emmer) wheat and atta price)",
    "value": 0.275,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=100199&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Pooled customs code: Wheat and meslin, other than durum and seed (pooled: khapli/emmer with common wheat)",
+   "hs_group": "100199"
   },
   {
    "product": "Khapli (emmer) wheat and atta",
    "slug": "khapli-wheat",
-   "metric": "12-month range of monthly unit value, HS 100199",
+   "metric": "12-month range of monthly unit value, HS 100199 (group average, not a product price)",
    "value": "0.27\u20130.42",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -546,29 +586,33 @@
   {
    "product": "Khapli (emmer) wheat and atta",
    "slug": "khapli-wheat",
-   "metric": "Indicative export FOB range seen in public offers",
+   "metric": "Desk estimate: indicative export price from public offers/reports (not a quote; see basis) (n=1 shipment): LOW SAMPLE",
    "value": "2.58",
    "unit": "USD/kg",
    "period": "compiled 2026-10-23",
    "source": "Nidhi Farms desk research: ONE emmer-flour shipment to Singapore, 3 Jan 2026: a single data point, not a market price",
    "source_url": "https://www.tridge.com/market-overview/emmer-flour/IN",
-   "type": "ESTIMATE"
+   "type": "ESTIMATE",
+   "note": "Low sample: based on n=1 shipment. Treat as a single reference point, not a market price.",
+   "sample_n": 1
   },
   {
    "product": "Cold-pressed groundnut oil",
    "slug": "groundnut-oil",
-   "metric": "India export unit value, HS 150810 (pooled category)",
+   "metric": "HS 150810 group average export unit value (FOB basis, all goods in this HS code; not a cold-pressed groundnut oil price)",
    "value": 1.552,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=150810&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Pooled customs code: Groundnut oil, crude",
+   "hs_group": "150810"
   },
   {
    "product": "Cold-pressed groundnut oil",
    "slug": "groundnut-oil",
-   "metric": "12-month range of monthly unit value, HS 150810",
+   "metric": "12-month range of monthly unit value, HS 150810 (group average, not a product price)",
    "value": "1.44\u20131.60",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -579,18 +623,20 @@
   {
    "product": "Cold-pressed groundnut oil",
    "slug": "groundnut-oil",
-   "metric": "India export unit value, HS 150890 (pooled category)",
+   "metric": "HS 150890 group average export unit value (FOB basis, all goods in this HS code; not a cold-pressed groundnut oil price)",
    "value": 2.437,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=150890&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Pooled customs code: Groundnut oil, other than crude (refined, filtered, cold-pressed pooled)",
+   "hs_group": "150890"
   },
   {
    "product": "Cold-pressed groundnut oil",
    "slug": "groundnut-oil",
-   "metric": "12-month range of monthly unit value, HS 150890",
+   "metric": "12-month range of monthly unit value, HS 150890 (group average, not a product price)",
    "value": "2.39\u20132.82",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -624,18 +670,20 @@
   {
    "product": "Cold-pressed coconut oil",
    "slug": "coconut-oil",
-   "metric": "India export unit value, HS 151311 (pooled category)",
+   "metric": "HS 151311 group average export unit value (FOB basis, all goods in this HS code; not a cold-pressed coconut oil price)",
    "value": 3.125,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=151311&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Pooled customs code: Coconut (copra) oil, crude",
+   "hs_group": "151311"
   },
   {
    "product": "Cold-pressed coconut oil",
    "slug": "coconut-oil",
-   "metric": "12-month range of monthly unit value, HS 151311",
+   "metric": "12-month range of monthly unit value, HS 151311 (group average, not a product price)",
    "value": "3.12\u20134.51",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -646,18 +694,20 @@
   {
    "product": "Cold-pressed coconut oil",
    "slug": "coconut-oil",
-   "metric": "India export unit value, HS 151319 (pooled category)",
+   "metric": "HS 151319 group average export unit value (FOB basis, all goods in this HS code; not a cold-pressed coconut oil price)",
    "value": 3.668,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=151319&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Pooled customs code: Coconut (copra) oil, other than crude",
+   "hs_group": "151319"
   },
   {
    "product": "Cold-pressed coconut oil",
    "slug": "coconut-oil",
-   "metric": "12-month range of monthly unit value, HS 151319",
+   "metric": "12-month range of monthly unit value, HS 151319 (group average, not a product price)",
    "value": "3.53\u20135.13",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -714,29 +764,33 @@
   {
    "product": "Cold-pressed coconut oil",
    "slug": "coconut-oil",
-   "metric": "Indicative export FOB range seen in public offers",
+   "metric": "Desk estimate: indicative export price from public offers/reports (not a quote; see basis) (n=1 index reading): LOW SAMPLE",
    "value": "2.70",
    "unit": "USD/kg",
    "period": "compiled 2026-10-23",
    "source": "Nidhi Farms desk research: Coconut oil FOB Cochin index, Aug 2026 (latest monthly; older)",
    "source_url": "https://www.commodity3.com/chain/CNO0IN/coconut-oil-index",
-   "type": "ESTIMATE"
+   "type": "ESTIMATE",
+   "note": "Low sample: based on n=1 index reading. Treat as a single reference point, not a market price.",
+   "sample_n": 1
   },
   {
    "product": "Karanja (pongamia) oil",
    "slug": "karanja-oil",
-   "metric": "India export unit value, HS 151590 (pooled category)",
+   "metric": "HS 151590 group average export unit value (FOB basis, all goods in this HS code; not a karanja (pongamia) oil price)",
    "value": 6.227,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=151590&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Same figure shown for: Moringa seed oil. Pooled customs code: Other fixed vegetable fats and oils (pooled: karanja, moringa seed and many others)",
+   "hs_group": "151590"
   },
   {
    "product": "Karanja (pongamia) oil",
    "slug": "karanja-oil",
-   "metric": "12-month range of monthly unit value, HS 151590",
+   "metric": "12-month range of monthly unit value, HS 151590 (group average, not a product price)",
    "value": "4.12\u20136.38",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -747,18 +801,20 @@
   {
    "product": "Moringa seed oil",
    "slug": "moringa-seed-oil",
-   "metric": "India export unit value, HS 151590 (pooled category)",
+   "metric": "HS 151590 group average export unit value (FOB basis, all goods in this HS code; not a moringa seed oil price)",
    "value": 6.227,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=151590&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Same figure shown for: Karanja (pongamia) oil. Pooled customs code: Other fixed vegetable fats and oils (pooled: karanja, moringa seed and many others)",
+   "hs_group": "151590"
   },
   {
    "product": "Moringa seed oil",
    "slug": "moringa-seed-oil",
-   "metric": "12-month range of monthly unit value, HS 151590",
+   "metric": "12-month range of monthly unit value, HS 151590 (group average, not a product price)",
    "value": "4.12\u20136.38",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -769,18 +825,20 @@
   {
    "product": "Vetiver (khus) root, dried",
    "slug": "vetiver-root",
-   "metric": "India export unit value, HS 121190 (pooled category)",
+   "metric": "HS 121190 group average export unit value (FOB basis, all goods in this HS code; not a vetiver (khus) root, dried price)",
    "value": 4.056,
    "unit": "USD/kg",
    "period": "Jul 2026",
    "source": "UN Comtrade (monthly, India reporter, FOB value / net weight)",
    "source_url": "https://comtradeplus.un.org/TradeFlow?Frequency=M&Flows=X&CommodityCodes=121190&Partners=0&Reporters=699&AggregateBy=none&BreakdownMode=plus",
-   "type": "official statistic"
+   "type": "official statistic",
+   "note": "Same figure shown for: Moringa leaf powder, Ashwagandha root powder, Neem leaf powder, Curry leaf powder. Pooled customs code: Plants and parts of plants used in pharmacy/perfumery, n.e.s. (pooled: moringa, ashwagandha, neem, curry leaf, vetiver and hundreds of other herbs)",
+   "hs_group": "121190"
   },
   {
    "product": "Vetiver (khus) root, dried",
    "slug": "vetiver-root",
-   "metric": "12-month range of monthly unit value, HS 121190",
+   "metric": "12-month range of monthly unit value, HS 121190 (group average, not a product price)",
    "value": "3.13\u20134.38",
    "unit": "USD/kg",
    "period": "Aug 2025 \u2013 Jul 2026",
@@ -791,13 +849,15 @@
   {
    "product": "Vetiver (khus) root, dried",
    "slug": "vetiver-root",
-   "metric": "Indicative export FOB range seen in public offers",
+   "metric": "Desk estimate: indicative export price from public offers/reports (not a quote; see basis) (n=2 sources): LOW SAMPLE",
    "value": "3.00\u20135.00",
    "unit": "USD/kg",
    "period": "compiled 2026-10-23",
    "source": "Nidhi Farms desk research: Standard dried root; premium washed root quoted higher; 2 thin sources",
    "source_url": "https://www.indianxporter.com/product/khus",
-   "type": "ESTIMATE"
+   "type": "ESTIMATE",
+   "note": "Low sample: based on n=2 sources. Treat as a single reference point, not a market price.",
+   "sample_n": 2
   }
  ]
 }

@@ -1,16 +1,114 @@
 {
- "_note": "Indicative export FOB ranges (USD/kg) compiled by the Nidhi Farms desk from public seller asks, rate cards and trade blogs. ESTIMATES, not quotes, not transaction prices. Only products whose estimated export economics are positive are listed.",
+ "_note": "Indicative export price ranges (USD/kg) compiled by the Nidhi Farms desk from public seller asking prices, rate cards, trade blogs and (for coconut oil) a published FOB Cochin index. ESTIMATES: not quotes, not transaction prices, and not verified FOB unless the basis says so. n = number of data points behind the range. Only products whose estimated export economics are positive are listed.",
  "compiled": "2026-10-23",
  "items": {
-  "moringa": {"low": 2.25, "high": 6.0, "basis": "Conventional powder, 4 public sources", "sources": ["https://www.botanikabharat.com/moringa-powder.php","https://orgoallnaturalexports.com/wp-content/uploads/2025/10/Rate-Card-Catalogue-_Orgo-All-Natural.pdf","https://www.indexbox.io/store/india-moringa-ingredients-market-analysis-forecast-size-trends-and-insights/","https://exportready.africa/market-intelligence/moringa-export-market-africa-prices-eu/"]},
-  "ashwagandha": {"low": 2.8, "high": 5.21, "basis": "Conventional root powder, 4 public sources", "sources": ["https://arizoneinternational.com/herbs/ground-herbs/ashwagandha-powder","https://www.rootexpointernational.com/ashwagandha-powder.htm"]},
-  "curry": {"low": 2.8, "high": 5.0, "basis": "Seller asks only (go4WorldBusiness, Botanika); outlier excluded", "sources": ["https://www.go4worldbusiness.com/pref_product/view/1925179/curry-leave-powder-%28dehydrated%29.html","https://www.go4worldbusiness.com/pref_product/view/1951844/premium-export-grade-curry-leaf-powder.html","https://www.botanikabharat.com/curry-leaf.php"]},
-  "jaggery_powder": {"low": 0.84, "high": 1.08, "basis": "Powder, MOQ 10 MT, May 2026 (older); organic excluded", "sources": ["https://www.tradologie.com/blogs/jaggery-gur-export-from-india/"]},
-  "ragi": {"low": 0.42, "high": 0.56, "basis": "Tradologie band cited 14 Jul 2026 (older)", "sources": ["https://shipscout.ai/blog/millets-export-data-buyers-2026"]},
-  "bajra": {"low": 0.31, "high": 0.40, "basis": "Food grade, Tradologie band cited 14 Jul 2026 (older); feed grade lower", "sources": ["https://shipscout.ai/blog/millets-export-data-buyers-2026","https://eximnext.com/product/millet-bajra-3"]},
-  "small_millets": {"low": 0.50, "high": 0.85, "basis": "'Small millets' band, likely cleaned/dehulled grain, cited 14 Jul 2026 (older)", "sources": ["https://shipscout.ai/blog/millets-export-data-buyers-2026"]},
-  "khapli": {"low": 2.58, "high": 2.58, "basis": "ONE emmer-flour shipment to Singapore, 3 Jan 2026: a single data point, not a market price", "sources": ["https://www.tridge.com/market-overview/emmer-flour/IN"]},
-  "coconut_oil": {"low": 2.696, "high": 2.696, "basis": "Coconut oil FOB Cochin index, Aug 2026 (latest monthly; older)", "sources": ["https://www.commodity3.com/chain/CNO0IN/coconut-oil-index"]},
-  "vetiver": {"low": 3.0, "high": 5.0, "basis": "Standard dried root; premium washed root quoted higher; 2 thin sources", "sources": ["https://www.indianxporter.com/product/khus","https://agriacad.eu/ojs/index.php/bjas/article/download/6879/5755/11950"]}
+  "moringa": {
+   "low": 2.25,
+   "high": 6.0,
+   "basis": "Conventional powder, 4 public sources",
+   "sources": [
+    "https://www.botanikabharat.com/moringa-powder.php",
+    "https://orgoallnaturalexports.com/wp-content/uploads/2025/10/Rate-Card-Catalogue-_Orgo-All-Natural.pdf",
+    "https://www.indexbox.io/store/india-moringa-ingredients-market-analysis-forecast-size-trends-and-insights/",
+    "https://exportready.africa/market-intelligence/moringa-export-market-africa-prices-eu/"
+   ],
+   "n": 4,
+   "n_unit": "public sources"
+  },
+  "ashwagandha": {
+   "low": 2.8,
+   "high": 5.21,
+   "basis": "Conventional root powder, 4 public sources",
+   "sources": [
+    "https://arizoneinternational.com/herbs/ground-herbs/ashwagandha-powder",
+    "https://www.rootexpointernational.com/ashwagandha-powder.htm"
+   ],
+   "n": 4,
+   "n_unit": "public sources"
+  },
+  "curry": {
+   "low": 2.8,
+   "high": 5.0,
+   "basis": "Seller asks only (go4WorldBusiness, Botanika); outlier excluded",
+   "sources": [
+    "https://www.go4worldbusiness.com/pref_product/view/1925179/curry-leave-powder-%28dehydrated%29.html",
+    "https://www.go4worldbusiness.com/pref_product/view/1951844/premium-export-grade-curry-leaf-powder.html",
+    "https://www.botanikabharat.com/curry-leaf.php"
+   ],
+   "n": 3,
+   "n_unit": "seller asks"
+  },
+  "jaggery_powder": {
+   "low": 0.84,
+   "high": 1.08,
+   "basis": "Powder, MOQ 10 MT, May 2026 (older); organic excluded",
+   "sources": [
+    "https://www.tradologie.com/blogs/jaggery-gur-export-from-india/"
+   ],
+   "n": 1,
+   "n_unit": "source"
+  },
+  "ragi": {
+   "low": 0.42,
+   "high": 0.56,
+   "basis": "Tradologie band cited 14 Jul 2026 (older)",
+   "sources": [
+    "https://shipscout.ai/blog/millets-export-data-buyers-2026"
+   ],
+   "n": 1,
+   "n_unit": "source (one cited band)"
+  },
+  "bajra": {
+   "low": 0.31,
+   "high": 0.4,
+   "basis": "Food grade, Tradologie band cited 14 Jul 2026 (older); feed grade lower",
+   "sources": [
+    "https://shipscout.ai/blog/millets-export-data-buyers-2026",
+    "https://eximnext.com/product/millet-bajra-3"
+   ],
+   "n": 2,
+   "n_unit": "sources"
+  },
+  "small_millets": {
+   "low": 0.5,
+   "high": 0.85,
+   "basis": "'Small millets' band, likely cleaned/dehulled grain, cited 14 Jul 2026 (older)",
+   "sources": [
+    "https://shipscout.ai/blog/millets-export-data-buyers-2026"
+   ],
+   "n": 1,
+   "n_unit": "source (one cited band)"
+  },
+  "khapli": {
+   "low": 2.58,
+   "high": 2.58,
+   "basis": "ONE emmer-flour shipment to Singapore, 3 Jan 2026: a single data point, not a market price",
+   "sources": [
+    "https://www.tridge.com/market-overview/emmer-flour/IN"
+   ],
+   "n": 1,
+   "n_unit": "shipment"
+  },
+  "coconut_oil": {
+   "low": 2.696,
+   "high": 2.696,
+   "basis": "Coconut oil FOB Cochin index, Aug 2026 (latest monthly; older)",
+   "sources": [
+    "https://www.commodity3.com/chain/CNO0IN/coconut-oil-index"
+   ],
+   "n": 1,
+   "n_unit": "index reading"
+  },
+  "vetiver": {
+   "low": 3.0,
+   "high": 5.0,
+   "basis": "Standard dried root; premium washed root quoted higher; 2 thin sources",
+   "sources": [
+    "https://www.indianxporter.com/product/khus",
+    "https://agriacad.eu/ojs/index.php/bjas/article/download/6879/5755/11950"
+   ],
+   "n": 2,
+   "n_unit": "sources"
+  }
  }
 }
