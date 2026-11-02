@@ -1,14 +1,20 @@
 {
- "snapshot_date": "2026-10-27",
- "generated_utc": "2026-10-27T06:44Z",
+ "snapshot_date": "2026-11-02",
+ "generated_utc": "2026-11-02T03:48Z",
  "fx": {
-  "usd_inr": 95.18,
-  "date": "2026-10-26",
+  "usd_inr": 94.95,
+  "date": "2026-10-30",
   "source": "Frankfurter (European Central Bank reference rate)",
   "url": "https://api.frankfurter.dev/v1/latest?base=USD&symbols=INR"
  },
  "comtrade_monthly": {
   "091030": [
+   {
+    "period": "202608",
+    "value_usd": 27088341.544,
+    "net_kg": 14735674.0,
+    "usd_per_kg": 1.838
+   },
    {
     "period": "202607",
     "value_usd": 24989554.459,
@@ -74,15 +80,15 @@
     "value_usd": 28047047.276,
     "net_kg": 16523121.554,
     "usd_per_kg": 1.697
-   },
-   {
-    "period": "202508",
-    "value_usd": 29999315.869,
-    "net_kg": 17136337.0,
-    "usd_per_kg": 1.751
    }
   ],
   "100199": [
+   {
+    "period": "202608",
+    "value_usd": 15948727.301,
+    "net_kg": 55006150.0,
+    "usd_per_kg": 0.29
+   },
    {
     "period": "202607",
     "value_usd": 11189170.758,
@@ -148,15 +154,15 @@
     "value_usd": 2429810.017,
     "net_kg": 7147010.0,
     "usd_per_kg": 0.34
-   },
-   {
-    "period": "202508",
-    "value_usd": 656247.334,
-    "net_kg": 2054210.0,
-    "usd_per_kg": 0.319
    }
   ],
   "100829": [
+   {
+    "period": "202608",
+    "value_usd": 2166870.495,
+    "net_kg": 5022595.0,
+    "usd_per_kg": 0.431
+   },
    {
     "period": "202607",
     "value_usd": 2136827.755,
@@ -222,15 +228,15 @@
     "value_usd": 2941425.495,
     "net_kg": 7039977.0,
     "usd_per_kg": 0.418
-   },
-   {
-    "period": "202508",
-    "value_usd": 3452171.717,
-    "net_kg": 8375506.0,
-    "usd_per_kg": 0.412
    }
   ],
   "121190": [
+   {
+    "period": "202608",
+    "value_usd": 38006072.321,
+    "net_kg": 9267418.301,
+    "usd_per_kg": 4.101
+   },
    {
     "period": "202607",
     "value_usd": 40250981.937,
@@ -296,15 +302,15 @@
     "value_usd": 31647703.7,
     "net_kg": 7224780.308,
     "usd_per_kg": 4.38
-   },
-   {
-    "period": "202508",
-    "value_usd": 40349539.691,
-    "net_kg": 9413880.0,
-    "usd_per_kg": 4.286
    }
   ],
   "150810": [
+   {
+    "period": "202608",
+    "value_usd": 8732118.433,
+    "net_kg": 5360052.0,
+    "usd_per_kg": 1.629
+   },
    {
     "period": "202607",
     "value_usd": 14163589.043,
@@ -370,15 +376,15 @@
     "value_usd": 29419424.528,
     "net_kg": 19980754.0,
     "usd_per_kg": 1.472
-   },
-   {
-    "period": "202508",
-    "value_usd": 26947862.219,
-    "net_kg": 17859010.0,
-    "usd_per_kg": 1.509
    }
   ],
   "150890": [
+   {
+    "period": "202608",
+    "value_usd": 1201404.837,
+    "net_kg": 468786.0,
+    "usd_per_kg": 2.563
+   },
    {
     "period": "202607",
     "value_usd": 1298272.677,
@@ -444,15 +450,15 @@
     "value_usd": 887915.197,
     "net_kg": 364594.0,
     "usd_per_kg": 2.435
-   },
-   {
-    "period": "202508",
-    "value_usd": 1174486.805,
-    "net_kg": 446818.0,
-    "usd_per_kg": 2.629
    }
   ],
   "151311": [
+   {
+    "period": "202608",
+    "value_usd": 696989.42,
+    "net_kg": 206192.0,
+    "usd_per_kg": 3.38
+   },
    {
     "period": "202607",
     "value_usd": 884244.871,
@@ -518,15 +524,15 @@
     "value_usd": 1028369.435,
     "net_kg": 231185.0,
     "usd_per_kg": 4.448
-   },
-   {
-    "period": "202508",
-    "value_usd": 1466313.426,
-    "net_kg": 333709.0,
-    "usd_per_kg": 4.394
    }
   ],
   "151319": [
+   {
+    "period": "202608",
+    "value_usd": 4434575.086,
+    "net_kg": 1295202.0,
+    "usd_per_kg": 3.424
+   },
    {
     "period": "202607",
     "value_usd": 5177478.041,
@@ -592,15 +598,15 @@
     "value_usd": 5817328.124,
     "net_kg": 1201936.837,
     "usd_per_kg": 4.84
-   },
-   {
-    "period": "202508",
-    "value_usd": 7713590.43,
-    "net_kg": 1531544.0,
-    "usd_per_kg": 5.036
    }
   ],
   "151590": [
+   {
+    "period": "202608",
+    "value_usd": 11670882.764,
+    "net_kg": 2048335.175,
+    "usd_per_kg": 5.698
+   },
    {
     "period": "202607",
     "value_usd": 12010610.944,
@@ -666,15 +672,15 @@
     "value_usd": 11662366.007,
     "net_kg": 2762480.735,
     "usd_per_kg": 4.222
-   },
-   {
-    "period": "202508",
-    "value_usd": 11786808.616,
-    "net_kg": 2449999.827,
-    "usd_per_kg": 4.811
    }
   ],
   "170113": [
+   {
+    "period": "202608",
+    "value_usd": 1873806.405,
+    "net_kg": 2326943.0,
+    "usd_per_kg": 0.805
+   },
    {
     "period": "202607",
     "value_usd": 1978400.326,
@@ -740,15 +746,15 @@
     "value_usd": 1451829.438,
     "net_kg": 2154167.0,
     "usd_per_kg": 0.674
-   },
-   {
-    "period": "202508",
-    "value_usd": 1521605.417,
-    "net_kg": 2173576.0,
-    "usd_per_kg": 0.7
    }
   ],
   "320300": [
+   {
+    "period": "202608",
+    "value_usd": 2927106.808,
+    "net_kg": 694969.805,
+    "usd_per_kg": 4.212
+   },
    {
     "period": "202607",
     "value_usd": 3491682.016,
@@ -814,12 +820,6 @@
     "value_usd": 3162967.945,
     "net_kg": 292569.143,
     "usd_per_kg": 10.811
-   },
-   {
-    "period": "202508",
-    "value_usd": 1515912.202,
-    "net_kg": 431818.239,
-    "usd_per_kg": 3.511
    }
   ]
  },
@@ -1565,5 +1565,8 @@
   "151311": "Coconut (copra) oil, crude",
   "151319": "Coconut (copra) oil, other than crude",
   "151590": "Other fixed vegetable fats and oils (pooled: karanja, moringa seed and many others)"
- }
+ },
+ "stale": [
+  "agmarknet"
+ ]
 }
