@@ -2,7 +2,7 @@
 Agmarknet all-India average mandi prices, and the USD/INR reference rate.
 Writes docs/data/latest.json and appends to docs/data/history.csv (never rewrites old rows).
 Free, keyless public endpoints only."""
-import json, csv, os, sys, time, datetime as dt, urllib.request, urllib.parse
+import json, csv, os, sys, time, datetime as dt, urllib.request, urllib.parse, urllib.error
 sys.path.insert(0, os.path.dirname(__file__))
 from products import PRODUCTS, HS_DESC
 
@@ -70,8 +70,23 @@ def f(x):
     try: return float(x)
     except Exception: return None
 
+def agm_blocked():
+    """Agmarknet's API started demanding a captcha (Nov 2026); detect it once instead of retrying every commodity."""
+    try:
+        urllib.request.urlopen(urllib.request.Request(AGM.format(date=TODAY.isoformat(), cid=1), headers=UA), timeout=60)
+        return False
+    except urllib.error.HTTPError as e:
+        try: body = e.read().decode("utf-8", "ignore")
+        except Exception: body = ""
+        return "CAPTCHA" in body.upper()
+    except Exception:
+        return False
+
 def agmarknet():
     out = {}
+    if agm_blocked():
+        print("WARN: Agmarknet API requires a captcha; keeping last good mandi prices", file=sys.stderr)
+        return out
     ids = sorted({cid for p in PRODUCTS for cid, _ in p["agm"]})
     for cid in ids:
         rec = None
